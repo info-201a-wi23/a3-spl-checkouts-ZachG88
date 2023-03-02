@@ -41,7 +41,7 @@ It was interesting to see woe the number of print checkouts dropped between 2019
 This chart displays book vs ebook checkouts of the most checked out book in the data set: "Educated" (A novel by Tara Westover). I picked this book becuase I was sure it would be representative of the larger data set of books and ebooks. Something that I thought was interesting is that both the book and ebook publications of "Educated" have distinct peaks. The book pattern is explained by the COVID-19 pandemic and the closure of libraries across the city. At the same time as this drop in book checkouts, there was a rise in ebook checkouts, something that was possible during the pandemic. These patterns are helpful to understand the effect of the pandemic on patron's checkout behaviors and will be examined further in the next chart. 
 
 
-```{r, echo = FALSE, code = readLines("chart1.R")}
+```{r, echo = FALSE, warning=FALSE, message=FALSE, code = readLines("chart1.R")}
 ```
 
 ### Second Trends Over Time Chart
